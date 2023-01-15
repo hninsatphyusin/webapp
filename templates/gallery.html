@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block title %}Our Projects{% endblock %}
+{%block head%} 
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/gallery.css') }}">
+{% endblock %}
+{% block body %}
+<ul id="gallery-container">
+    <li><img src="../static/images/gallery1.jpg" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery2.JPG" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery3.jpeg" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery4.jpg" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery5.jpg" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery6.jpg" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery7.jpg" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery8.jpg" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery9.jpg" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery10.jpg" alt="gallery-pic-1"></li>
+    <li><img src="../static/images/gallery11.jpg" alt="gallery-pic-1"></li>
+</ul>
+{% endblock %}
